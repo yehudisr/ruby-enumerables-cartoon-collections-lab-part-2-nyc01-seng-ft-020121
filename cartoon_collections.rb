@@ -29,5 +29,4 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |item|
     item = valid_calls.find
 end
-item
 end
