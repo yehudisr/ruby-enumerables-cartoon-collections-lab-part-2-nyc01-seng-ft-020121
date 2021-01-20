@@ -1,3 +1,4 @@
+require "pry"
 def square_array(array)
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
@@ -16,6 +17,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.select do |element| 
     element.length > 4
+  binding.pry
   end
   
 end
